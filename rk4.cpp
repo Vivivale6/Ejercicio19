@@ -25,7 +25,7 @@ int main (){
     k1= funcion(x,y);
     k2= funcion(x+h/2,y+(h/2.0)*k1);
     k3= funcion(x+h/2,y+(h/2.0)*k2);
-    k4= funcion(x+h/2,y+(h/2.0)*k3);
+    k4= funcion(x+h/2,y+(h*k3);
     y=y+(h/6.0*(k1+2.0*k2+2.0*k3+k4));
     x=x+h;
 
